@@ -19,8 +19,8 @@ internal class Program
             where number < 10
             orderby number
             select number).Distinct();
+        /*It's possible to mix around query syntax and method syntax*/
 
         Console.WriteLine(string.Join(", ", smallOrderedNumbersQuerySyntax));
-
     }
 }
